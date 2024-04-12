@@ -1,0 +1,88 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<title>Leading Choice Getaways Home Page</title>
+	<link href="lcgStyle.css" type="text/css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1,user-scalable=no">
+</head>
+<body>
+<header class="top">
+    <div class="topTitleLogoClass">
+        <img id="logo" src="images/logoLCG.png" alt="Leading Choice Gateways Logo">
+        <h1 id="title">Leading Choice Getaways</h1>
+    </div>
+</header>
+<!--This is the code for the header-->
+<nav class="navbar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="holidays.php">View Holidays</a></li>
+        <li><a class="active" href="admin.html">Admin</a></li>
+        <li><a href="credits.html">Credits</a></li>
+        <li><a href="Wireframes.pdf">Wireframes</a></li>
+      </ul>
+</nav>
+<!--This is the code for the navbar-->
+<form id="holidayForm" action="admin.php" method="post">
+    <h1>Add a new holiday:</h1>
+    <fieldset>
+        <legend>Your holiday</legend>
+        <label>Holiday title:
+            <input type="text" name="title" required>
+        </label>
+        <!--This code is the input for the holiday title-->
+        <br></br>
+        <label for="location">Holiday location:
+            <select name="location" id="location" required>locationName
+                <option value="l1">Milaidhoo Island, Maldives</option>
+                <option value="l2">Rangali Island, Maldives</option>
+                <option value="l3">Zanzibar, Tanzania</option>
+                <option value="l4">Boston, USA</option>
+                <option value="l5">San Francisco, USA</option>
+                <option value="l8">New York, USA</option>
+                <option value="l6">Nairobi, Kenya</option>
+                <option value="l7">Algarve, Portugal</option>
+                <option value="l9">Sorrento, Italy</option>
+                <option value="l10">Verona, Italy</option>
+            </select>
+        </label>
+        <!--This code is the input for the holiday location, it's a drop down selection-->
+        <br></br>
+        <label for="category">Holiday category:
+            <select name="category" id="category" required>
+                <option value="c1">Luxury</option>
+                <option value="c2">Tour</option>
+                <option value="c3">Safari</option>
+                <option value="c4">Golf</option>
+                <option value="c5">Weddings</option>
+                <option value="c6">Walking</option>
+                <option value="c7">Opera</option>
+            </select>
+        </label>
+        <!--This code is the input for the holiday category, it's a drop down selection-->
+        <br></br>
+        <label>Holiday description:
+            <input type="textarea" name="description" rows="10" cols="20" required>
+        </label>
+        <!--This code is the input for the holiday description-->
+        <br></br>
+        <label>Holiday duration:
+            <input type="number" name="duration" required>
+        </label>
+        <!--This code is the input for the holiday duration, it only accepts a number-->
+        <br></br>
+        <label>Holiday price:
+            <input type="number" name="price" required>
+        </label>
+        <!--This code is the input for the holiday price, it only accepts a number-->
+    </fieldset>
+    <input type="submit" value="Submit">
+</form>
+<br></br>
+<footer>
+    &copy; Leading Choice Getaways
+</footer>
+<!--This is my footer code which I am using to hold the copyright text-->
+</body>
+</html>
