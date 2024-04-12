@@ -1,4 +1,4 @@
-# web-tech-assessment
+# Web Technologies uni project
  Code repo for my Web Technologies assignment from university.
 
  This site uses a combination of HTML, PHP, CSS and SQL. HTML is used for the more basic and simple pages whereas PHP is used for pages that interact with the database or need to pull information from it.
