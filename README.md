@@ -5,3 +5,5 @@
  SQL is used to hold the database contents and to query the database from pages on the site to pull relevant information. And I chose to use a global style sheet to keep the overall look and UX of the site consistent.
 
  The wireframes were made in Adobe Photoshop rather than Adobe XD as I have more experience with Photoshop and I am more comfortable using it.
+ # Other notes
+This project was uploaded for archival and portfolio purposes.
